@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="shortcut icon" type="image/png" href="images/ic.png">
+        <link rel="stylesheet" href='style.css'>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        
+    </head>
+    <body>
+        
+        <header class="header">
+            
+            <a href="#" class="logo">Portfolio</a>
+            <nav class="navbar" id="myLinks">
+                <a href="#Home" style="--i:1" class="active" >Home</a>
+                <a href="#About" style="--i:2">About</a>
+                <a href="#Skills" style="--i:3">Skills</a>
+                <a href="#Projects" style="--i:4">Projects</a>
+                <a href="#Contact" style="--i:5">Contact</a>
+            </nav>
+        </header>
+
+
+        <section class="home" id="Home">
+            <div class="home-content">
+                
+                <h3>Hello, It's Me</h3>
+                <h1>Jaideep Kondepati</h1>
+                <h4 style="--i:6">I'm a Masters student who is<br>
+                    passionate in <span class="text"></span></h4>
+                
+                <div class="img">
+                     <img src="images/IMG_0452.jpeg" class="responsive">
+                </div>
+
+                <div class="home-sci">
+                    <a href="https://www.linkedin.com/in/jaideep-kondepati"style="--i:7" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/JaideepKondepati1999"style="--i:10" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/16qbuy3qbz3MTtExfEejFNhlh88l35zqv/view?usp=drive_link" style="--i:11" class="btn-box" target="_blank">Download Resume</a>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="about" id="About">
+                <div class="about-img">
+                    <img src="images/IMG_4461.jpeg" class="abt-res">
+                </div>
+                <div class="about-text">
+                    <h2>About <span>Me</span></h2>
+                    <p>They say Aurum Potestas Est—gold is power. But I say data is the real gold, and I know how to mine it.
+
+						I’m Jaideep Kondepati, a data alchemist who transforms raw numbers into strategic insights. Whether it’s building machine learning models, engineering seamless data pipelines, or crafting jaw-dropping visualizations, I turn complex data into pure gold—fueling smarter decisions and bigger wins.
+						
+						Forget digging for gold. Let’s dig into data and uncover the real treasure.<br>
+                        <br>
+                        <a href="https://drive.google.com/file/d/16qbuy3qbz3MTtExfEejFNhlh88l35zqv/view?usp=drive_link" style="--i:11" class="abtbtn-box" target="_blank">Download Resume</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="Skills">
+            <h1 class="subtitle">My <span>Skills</span></h1>
+            <div class="sec">
+                <div class="container1">
+                    <h1 class="heading1">Technical Skills</h1>
+                    <div class="Technical-bars">
+
+                        <div class="bar"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADGUlEQVR4nO2YPWgUQRTHZ2dzM5dYaCFBAiaFNkZRBMUuiI0fRdBCwSZFolj4kWCSmRMJhyksBJVgI2qhhYIpFEREczPZmUSDSBo/kIAERWMnETQmSDRPdm89g4TczCXrXnD/8Jpr9vfb92Z25hBKkiRJEoTAQTy3GWcEd7i8i7l4hZkYx0x+x1xMYi4+YCaeOlxecrncgbJZXD5vrUNsDIC5BNNyuHiITnor40ZHKHuvCjM5ZgNfKCaHYu+Ey/p3lgQflpvJ7YpVAHPZHL7NMXRK1COeq8VcvrAYpe54BZhoy4PIa39+k13mAvJiWQgUOtAu6+w6IMtEoMRyEoGYu+SEHQBN2kBTmFVToOkzUGTfUhWAoBSdAU0Plf70jLfW4fJy+KWdWMi8lySgg/oKMl1nze52ykbM5LfFhi5BAEDRs3b0+e1w0d/4HALnzQTIqBW/w0VP1PBBMXEsEFDk9LwCfnlVq4wFMBNvohcQn1H7o+p8B+jtogKK7DGjb/VWYC5mIhaY8A+CyId/sqw6WKjFBVrNBHhuezTjIn9iJt87TF5FHXLN78eBpreKwufrjNn4ZORBy1EYwVw2oc6+muBmZhgAhEHRC4bw/k50zkyAi6Pmu4i4iY4/oKbQhZFRqQOg6LAxfH6EuJkAEy2GW2A/ynoVAdTjyhrQtAc0eQua/rAC06YC6SYjAbdT7DWZZ8T61gXwXsUW0ORTJNB6Vg2mNpn1mMn1BgJDeXiUBk3eRQ6v6CQMo5SZwP5et9hX2OHiSiCgSGPk8DqoO8gmDhPS6AyjyIl/AD/tj6mVAGbiiJFAsTPMYsAr2oysw3PL5/u/J2KBKdD0NShy3XzhzhGXid2YiemSBRSN98IehMsGf7//+16wdASKZMEjpGKW/M8EyBgMkHrQ6dWg6POlJ6BI4e9H0KSrTARoi4XAR/BSG2AwXQuavgwFuuMVCEZiAWvAo4djFTC+z869gL9YXdQjExhGVaDJDTt4Mgo63YDKKaAqtvrXPlBEh0fsifAsMw6KjoCi90GRLAxUboNe5MbNmyRJElQe+QWgfIcmva+j+wAAAABJRU5ErkJggg==" alt="python--v1">
+                            <!-- <i class='bx bxl-python' style="color: #c9332e;"></i> -->
+                            <div class="info">
+                                <span>Python <span class="addpython"></span></span>
+                            </div>
+                            <div class="progress-line python">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="bar"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEVklEQVR4nO2YW2hcRRjH/6naWi+9JZnZaLFVI1JvIBVvUBAKCl7Ql1SRilpxk/1mtzGtyc7sJucrolWxphcvUBWkLfogVvFBEasFS8GHCmpBfeiTKGjpleTMhmJ1ZeZsNptksyR5kBM4P/jImZkvc+Y/3zczZxZISEhISEhISJhDcG4RNH0BrQ5Cq01Ipy/CnKKQboNWg8jlFsCobmg6DE37oFUXejdcjjmBUVtQzNxdLWvVDK2ehlHfopB5CLHHpY2mDwA0oUgroLOP+vqenoXQ6m1o9ZJvizWGOqEz9/pnJ6KWAvXC0HbEGj/b9N6U7U6AVmnEGqO6YWhtgzT7DvnOlYgtHR0XwNC7U7YX1H3Q9CZiS3/X9dAZauDRBE1H/C4VSwytQ6HrzoY+0fa6BbHEqMeh6Q70ZVb5U7kezPNh6Cjy6cWIHTqzGib7DDS9CkM/+p2pHnnaAEOfQFM7YkYTtNoDTYf8CayJp/TM526Fode9WH7yYsSGfOdKP8MOk12P/o3XNfR3UTDqjThGI8IJcHlfjz66ESbbB0O7YdTnYJ4HFLK3w9Br0Co/ZQ6a7Bpo2gFN2emGr8yYV2K5LmQ5aAO5u9ZCbn3e+VhO3WZZbpvYbgPx8nC/uDnyEV2uboRb26HVNhi1F5s3X1ozOHUCRpW9OYdJqnPLoZWt8ZnW8R6y/NCyLIeBeKsUpDpqbZjlPaViakUYiHOW5VnLMjvaZgPRHbIIw0CMjBTl1WEg97t+SgMta8B8oU8fQx+D6bJRAWUYOglNP8OoIX/hGDf79Epl4D9V/hanI8AG4rh7cTmNuheWkFP3u3YbyH2T/pflO37QQapjnIDqmLpu8uPwW2s0syf8zEbP3VVHTl8CTaeg6S8Y0lUB7vJh6MCk7xj3KezrN8qQ5R/uxcNGyCki9GAkQLw/uU3s8oNm+VhdAdX3Za4ZE+By26jjMOpYtDh8dHKVCBWg1XM1Agaj+uz6cR0a9b2vL5JLj2crqfCbDeQBbyy/CgOx0xaWXdlQQCB2TktA5aWRAP9ML/pyIfOAF+HEuPyPbkwzEuCK5Vz7gmEWt9iBttXOwkBwtC7kZ40jIHfMToC/r9I5aPoSJvtINGDaFYVr5gImMtSfWuUFsDjUOAJy++wEROW9MOpfaPoVRp1HMXftJAFGvRBFinpnIsAOiIcrEdhfGhB3eQEsj5Z7li8cMqlWy/Jry+KXMBBH/PoZEGtHF7TbTqcnwB0khn6Hpn9gaGu1vlbApnQLDH0EQyE0nYFRpyt2fmwNyGOWxelaC1mUwkB+GhZa2spAk2Wx1QbilNsyfXsgbEVUOWR5uMw3zHdbqQ3EN5GPHJrYp1vJS8HdS+pIG3+pdj+DeN8JB5nbyly9+7Y36k8vXKvmM7x4yVl91dJRc+X6Mwic5GWLRv0sN19hWRwMA/l3yPKpWr+JfTrDrHC/GozN+php9QM0PTG7ThMSEhISEhIS8H/zH0+vv/NpkXfUAAAAAElFTkSuQmCC" alt="mysql-logo">
+                            <div class="info">
+                                <span>MySQL<span class="addsql"></span></span>
+                            </div>
+                            <div class="progress-line sql">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="bar"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABH0lEQVR4nO2XvQ2DMBBGbwHvkSY70GUIKOhpqIAmE6SAOqFIJglVZskWF1kKkgt+fNhgjO9JnyxZFPd8trABmGHK+hFVTYtyBB8pWcDRqvcp6nsut5Ac1XnYM1XT4lycFohPQJk1OpBebygDLgVMDnHKAhoE1QEqKQsMrDQ1QFhpaiAogTGCOgPf4ox9dL5PWUAD7sAWW6ic+IO66ECcvaMk61COxgIUqAJjhCFQLrzHq0UuDYwUrST/C+TqvJWX1FoCSdbhXI7VAe/PQDACn9MJZdYQEJcXyhgLTOFCwCosMIHgDljeQlSEzQ70hVJDKZQaCErA+y00RlACMfEPKlhAg8N3IDa4x4stBOYgv6T2htFLam9Yvce7gAUY8IMfuT9B6eZNKYoAAAAASUVORK5CYII=" alt="tableau-software">
+                            <div class="info">
+                                <span>Tableau<span class="addtableau"></span></span>
+                            </div>
+                            <div class="progress-line tableau">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="bar"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB40lEQVR4nO2ZX0vCUBjGd+XcvBV0YmwH2uafTIuKPkNdVCCE1k1140VafQ3rc0SUiNR9buCnCLowCqEQstsu3thZQdimE8/cRueB92Ln4pznd95nYztjGCoqKioq0gI9PAca2wCN/QCdBU9Lwx6a0Ampk5jve25c/wPShzaXHA9g7LzXZnXbunYC4H1sdNsuDBxEyAdGdfv63wAvTR4qRQHSqgQIIaKVViU43Bbg4TLiDkCvxcNSTiRuHA3VYkaE5yZPHuB4N44XONgS4PWWIx6NtzsOjnYEvEalGCcPUFgwd3/U7kxbvRaP18hlRPIA8ryZ+8/7sKs3KfqOku8B6tUoZFMSnFejwQRQZHM+VZaCCfD7yQMUgGAH7LIdmA4oNtkODACyMRZogLpFrAIFoFjEKlAAyOEYzBrAaTR8C6A4jIYvANaXzbfRx6sIEbNWY91GBF+v5F14Gz0tx/Dk5Y2EawD7mwl8XSu58D3w1OBhrWB2wS0AhBCs5kXcCeIAPxBne3HXAE5KMejejP5gmgpguKxu4mnGwEERBTAen9mUCBe1KJExmDWAF8UE+mhRZ9+ddKDpA6NgWRrbGA/QCam+PV7XQvJYAAzR5pLGUbZxGuwD4wPzZ4tD81RUVFRUzAT6AkHmL+dB7lT3AAAAAElFTkSuQmCC" alt="power-bi">
+                            <!-- <i class='bx bxl-java' style="color: #c95d2e;"></i> -->
+                            <div class="info">
+                                <span>Power BI<span class="addpbi"></span></span>
+                            </div>
+                            <div class="progress-line pbi">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="bar"><img src="data:image/png;base64,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" alt="amazon-web-services">
+                            <!-- <i class='bx bxl-aws'style="color: #3db2fc;"></i> -->
+                            <div class="info">
+                                <span>AWS<span class="addaws"></span></span>
+                            </div>
+                            <div class="progress-line aws">
+                                <span></span>
+                            </div>
+                        </div>
+
+						<div class="bar"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADGUlEQVR4nO2Za0hTYRzG9z0vu59JpK3vedvmTHOmM1OnE0wqbZWJjjTNS2nz7jZvFVmJUTOCchF0+RaBiAThQkgQKSKKbjohIqMIKlG3J3aiVXicw3PaMToPPF/eT7/fe/7vew4cHo8LFy5c/qlssht1cnvpjNxuxGqqcJhX1dhRs1M5as6kLbBx0OhcLTwdAYVHwtE+TVuADjxdAYXDDE5Azj0BMzdCtLLhTCH8aXifAREXiyC/WhrYQ0z06HVET+4M0a0H0ZUDojMb0g4dpNYsSC1ZkJgzIWnPgKRtB8Rt6RC3pkPcsh2i5jSImrQQNqZC2JACUYMWMose4f2GPyT+vkC33kkXXmhKgeD4NkhMqVB1FyHJVoHkKzVk6V4CPD8EGIEX1CdDUK+BqusAEs+XB1Cgizl4fl3SD4H+sgAKdDIHzz/GgoCUAn69NRsvZ2fgSeuQzQsffaoQcwvz+DY/h5gTBUvg+Ue3siBgpd75/dfbSYHZL58QYckhd/7W5Ai5Zh26RAkfWpvIgoBl+bEZef6QBO4YvgxNXwlcbjdevHdC1phGCR9akxB4AYmPmU84V4z5xQV8/PoZY68fwe12Q2+rXhY+tHoLCwLtvg/sBcdt/MyNiWGf8CFV8SwItPm+bezjd70CNyeGfcKHHImHOCcS0l0KyAxqsvzmVFrlrRRf8DkDNeTYjE89wYNXk6RE3kDtsvAhlWoWBFqp4cOa0/Hs3RsSWm+rgrbPSMpMfXiLMJOWEj64Mo4FgRbql9Tpe9dI+OGnY96xufP4PrnWOzJICR9coQq8gIgCPqH3IHn7uNwuaM4We2de2VOABdci2cST+5bABx1WsiDQtPLnga+Z/x0+qJwFASGD8EFlChYEGpiDX3coNvACAlOKkyn4oJJoFgTqNZn8Oo2TCXjBzkiIc6NA7P4lQLc8uhHpNsPfivVRkObHgChQrR0BSV4M/KnU0/xYELuVkO2NWzsCxB4l/K5n5xmElzEhwCSMjBP4H58AYVA72YInDGr6PzhkhepMNiQIg3paZojPoC3AhQsXLjwm8x3YSSmFlSW/AQAAAABJRU5ErkJggg==" alt="microsoft-excel-2019">
+                            <!-- <i class='bx bxl-c-plus-plus'style="color: #3db2fc;"></i> -->
+                            <div class="info">
+                                <span>Excel<span class="addexcel"></span></span>
+                            </div>
+                            <div class="progress-line excel">
+                                <span></span>
+                            </div>
+                        </div>
+
+						<div class="bar"><img src="https://cdn.brandfetch.io/idJz-fGD_q/theme/dark/symbol.svg?c=1dxbfHSJFAPEGdCLU4o5B", width="48px", height="48px">
+                            <!-- <i class='bx bxl-c-plus-plus'style="color: #3db2fc;"></i> -->
+                            <div class="info">
+                                <span>Snowflake<span class="addsf"></span></span>
+                            </div>
+                            <div class="progress-line sf">
+                                <span></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="container2">
+                    <h1 class="heading1">Professional Skills</h1>
+                    <div class="radial-bars">
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                                <circle class="path path-1" cx="100" cy="80" r="80"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                            <div class="text">Problem Solving</div>
+                        </div>
+
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                                <circle class="path path-2" cx="100" cy="80" r="80"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                            <div class="text">Creativity</div>
+                        </div>
+
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                                <circle class="path path-3" cx="100" cy="80" r="80"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                            <div class="text">Communication</div>
+                        </div>
+
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                                <circle class="path path-4" cx="100" cy="80" r="80"></circle>
+                            </svg>
+                            <div class="percentage">100%</div>
+                            <div class="text">Teamwork</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="Projects">
+            <div id="portfolio" class="services">
+                <div class="main-text" id="serv">
+                    <h2>My <span>Projects</span></h2>
+                    <div class="serv-container">
+                        <div class="row">
+                            <img src="images/IPL Analysis.png">
+                            <div class="layer">
+                                <h5>IPL Analysis Dashboard</h5>
+                                <p>IPL match statistics are analyzed using Tableau, SQL, and Python to evaluate team strategies, player performances, and match trends through interactive visualizations and advanced data analytics.</p>
+
+                                <a href="#"><i class='bx bxs-face-mask' style="color: aliceblue;"></i></a>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="images/HR Analytics.png">
+                            <div class="layer">
+                                <h5>HR Analytics Dashboard</h5>
+                                <p>Developed an HR Analytics Dashboard to visualize key workforce metrics, supporting data-driven decision-making and strategic planning.</p>
+
+                                <a href="#"><i class='bx bxs-low-vision' style="color: aliceblue;"></i></a>
+                                
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="images/Diabetes.png">
+                            <div class="layer">
+                                <h5>Diabetes Prediction using BRFSS</h5>
+                                <p>Built an innovative Diabetes Prediction model using the vast BRFSS dataset, leveraging SMOTE to balance data and exploring multiple machine learning techniques. Achieved optimal results with Linear Discriminant Analysis, showcasing my expertise in data cleaning, feature engineering, and predictive modeling.</p>
+
+                                <a href="#"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
+                                
+                            </div>
+                        </div>
+
+						<div class="row">
+                            <img src="images/Seoul.png">
+                            <div class="layer">
+                                <h5>Seoul Bike Rental Prediction</h5>
+                                <p>Predicted hourly bike rentals in Seoul by incorporating weather and holiday data, using advanced models like Multiple Linear Regression, PCA, and Neural Networks. Achieved the highest accuracy with a Neural Network model, boasting an MSE of 0.046 and RMSE of 0.21.</p>
+
+                                <a href="#"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
+							
+							</div>
+						</div>
+
+						<div class="row">
+                            <img src="images/Ecommerce.png">
+                            <div class="layer">
+                                <h5>E-commerce Transaction Analysis</h5>
+                                <p>Unveiled key insights from over 1M e-commerce transactions through EDA, feature engineering, and advanced visualizations in Tableau. Identified revenue trends, peak sales periods, and top customer segments, leading to data-driven strategies for inventory, expansion, and promotions.</p>
+
+                                <a href="#"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
+                                
+                            </div>
+                        </div>
+
+						<div class="row">
+                            <img src="images/Influencer.png">
+                            <div class="layer">
+                                <h5>Influencer Marketing Agency Management System</h5>
+                                <p>Developed an industry-ready Influencer Marketing Agency Management System, designing an RDBMS model with MySQL and NoSQL integration. Conducted data analytics to identify top influencers and product promotion trends, leveraging Python for insights and visualizing conceptual models with UML and EER diagrams.</p>
+
+                                <a href="#"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section id="Projects">
+            <div id="portfolio" class="services">
+                <div class="main-text">
+                    <h2>My <span>Projects</span></h2>
+                    <div class="serv-container">
+                        
+                        <div class="row">
+                            <img src="images/IPL Analysis.png" alt="IPL Analysis">
+                            <div class="layer">
+                                <h5>IPL Analysis Dashboard</h5>
+                                <p>Analyzed IPL match statistics using Tableau, SQL, and Python to evaluate team strategies, player performances, and match trends through interactive visualizations.</p>
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <img src="images/HR Analytics.png" alt="HR Analytics">
+                            <div class="layer">
+                                <h5>HR Analytics Dashboard</h5>
+                                <p>Developed an HR Analytics Dashboard to visualize key workforce metrics, supporting data-driven decision-making.</p>
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <img src="images/Diabetes.png" alt="Diabetes Prediction">
+                            <div class="layer">
+                                <h5>Diabetes Prediction</h5>
+                                <p>Built a Diabetes Prediction model using BRFSS dataset, balancing data using SMOTE and exploring machine learning techniques.</p>
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <img src="images/Seoul.png" alt="Seoul Bike Rental">
+                            <div class="layer">
+                                <h5>Seoul Bike Rental Prediction</h5>
+                                <p>Predicted hourly bike rentals using weather and holiday data, leveraging Neural Networks to achieve high accuracy.</p>
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <img src="images/Ecommerce.png" alt="E-commerce Analysis">
+                            <div class="layer">
+                                <h5>E-commerce Transaction Analysis</h5>
+                                <p>Analyzed over 1M e-commerce transactions using EDA and Tableau to uncover revenue trends and customer insights.</p>
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <img src="images/Influencer.png" alt="Influencer Marketing">
+                            <div class="layer">
+                                <h5>Influencer Marketing System</h5>
+                                <p>Developed an Influencer Marketing Agency Management System with MySQL and NoSQL integration for data analytics.</p>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="Services">
+            <div class="project">
+                <div class="container">
+                    <h1 class="sub-title">My <span>Services</span></h1>
+                    <div class="prj-list">
+                        <div>
+                            <i class='bx bx-code' style="color: #00eeff;"></i>
+                            <h2>Data Cleaning and Preprocessing</h2>
+                            <p>Transform raw data into structured, reliable formats by removing inconsistencies, filling gaps, and handling outliers to ensure clean datasets for analysis.</p>
+                            
+                        </div>
+                        <div>
+                            <i class='bx bx-cube' style="color: #00eeff;"></i>
+                            <h2>Data Visualization</h2>
+                            <p>Create visually appealing, user-friendly dashboards to provide real-time insights, trends, and key metrics for business decision-making.</p>
+                            
+                        </div>
+                        <div>
+                            <i class='bx bxl-android' style="color: #00eeff;"></i>
+                            <h2>Business Intelligence Insights</h2>
+                            <p>Craft compelling, data-rich reports with clear visualizations to communicate findings effectively to stakeholders and support data-driven decisions.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contacts" id="Contact">
+            <div class="contact-text">
+                <h2>Contact <span>Me</span></h2>
+                <h4>Let's Work Together</h4>
+                <div class="contact-list">
+                    <li><i class='bx bxs-send'></i>jaideepkondepati@gmail.com</li>
+                    <li><i class="bx bxs-phone-call" ></i>(617)201-2844</li>
+                </div>
+                <div class="contact-icons">
+                    <a href="https://github.com/JaideepKondepati1999" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/jaideep-kondepati" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+            
+        </section>
+        
+        <div class="last-text">
+            <p>Developed by Jaideep <i class='bx bx-copyright' style="color: white;"></i> 2024</p>
+        </div>
+        <a href="#Home" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
+
+        <script src="script.js"></script>
+    </body>  
+</html>
